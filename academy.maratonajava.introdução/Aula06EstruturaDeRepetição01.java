@@ -1,4 +1,4 @@
-public class Aula06EstruturaDeRepetição06 {
+public class Aula06EstruturaDeRepetição01 {
     public static void main(String[] args) {
         // while, do while, for
         int count = 0;

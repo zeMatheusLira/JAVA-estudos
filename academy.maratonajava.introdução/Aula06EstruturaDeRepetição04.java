@@ -1,4 +1,4 @@
-public class Aula06EstruturaDeRepetição09 {
+public class Aula06EstruturaDeRepetição04 {
     public static void main(String[] args) {
         // dado o valor de um carro, descubra em quantas ele pode ser parcelado
         //Condição valorParcela>=1000
