@@ -6,7 +6,7 @@ public class EstudanteTest01 {
     public static void main(String[] args) {
     // variavel de referencia estudante fazendo referencia ao objeto estudante
         Estudante estudante = new Estudante();
-        estudante.nome = "Luffy";
+        estudante.nome = "Teteu";
         estudante.idade = 21;
         estudante.sexo = 'M';
 
