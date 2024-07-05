@@ -2,8 +2,8 @@ package introducaometodos.dominio;
 
 public class ImpressoraFuncionarios {
     public void imprime(Funcionarios funcionarios) {
-        System.out.println(funcionarios.nome);
-        System.out.println(funcionarios.idade + " anos");
+        System.out.println(funcionarios.getNome());
+        System.out.println(funcionarios.getIdade()+ " anos");
     }
 
     public void imprimeSalario(Funcionarios funcionarios) {

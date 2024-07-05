@@ -11,10 +11,10 @@ public class FuncionariosTest01 {
         Funcionarios salario03 = new Funcionarios();
         ImpressoraFuncionarios salario = new ImpressoraFuncionarios();
 
-        funcionarios01.nome = "Teteu";
-        funcionarios01.idade = 20;
+        funcionarios01.setNome("Teteu");
+        funcionarios01.setIdade(20);
         // outra forma seria: funcionarios01.salario = new double[]{2000,3000,4000};
-        salario01.salario =2000;
+        salario01.salario = 2000;
         salario02.salario = 3000;
         salario03.salario = 4000;
 
