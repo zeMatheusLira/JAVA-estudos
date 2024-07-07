@@ -3,6 +3,7 @@ package blocosinicializacao.dominio;
 public class Anime {
     private String nome;
     private int[] episodios;
+//0 - Bloco de inicialização estáico da super classe é executado quando a jvm carregar a classe filha
 // 1 - Alocado em espaco em memoria pro objeto
 // 2- Cada atributo de classe é criado e inicializado com valores default ou o que for passado
 // 3- Bloco de inicializacao é executado
