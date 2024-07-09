@@ -1,8 +1,8 @@
 package enumeracao.test;
 
 import enumeracao.dominio.Cliente;
-import enumeracao.dominio.Cliente.TipoPagamento;
 import enumeracao.dominio.TipoCliente;
+import enumeracao.dominio.TipoPagamento;
 
 public class ClienteTest01 {
     public static void main(String[] args) {
@@ -15,5 +15,9 @@ public class ClienteTest01 {
         System.out.println(cliente02);
         System.out.println(cliente03);
         System.out.println(cliente04);
+        System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
+        System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
+
+        System.out.println(TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física"));
     }
 }
