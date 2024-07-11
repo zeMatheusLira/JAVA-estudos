@@ -28,6 +28,13 @@ public class CalculadoraImposto {
         System.out.println("Produto: "+produto.getNome());
         System.out.println("Valor do produto:  "+produto.getValor());
         System.out.println("Imposto a ser pago "+imposto);
+        if (produto instanceof Tomate){
+            /*Tomate tomate = (Tomate) produto;
+            System.out.println(tomate.getDataValidade());
+             */
+            System.out.println(((Tomate) produto).getDataValidade());
+        }
+
         // uma forma de desacoplar e diminuir a quantidade de codigo
         //deixa um pouco mais generico, mas com o msm resultado
     }
